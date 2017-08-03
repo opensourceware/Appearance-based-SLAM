@@ -1,0 +1,11 @@
+GROUND_TRUTH = "GroundTruth_Eynsham_40meters.mat"
+CLTREE = "feat/CarBegbroke_KMeansRadiusBased_10kwords_BlobResponse_25_withMerging_ChowTree.mat"
+MARGINALS = "feat/CarBegbroke_KMeansRadiusBased_10kwords_BlobResponse_25_withMerging_Marginals.mat"
+CONDITIONALS = "feat/CarBegbroke_KMeansRadiusBased_10kwords_BlobResponse_25_withMerging_RelevantConditionals.mat"
+NOT_CONDITIONALS = "feat/CarBegbroke_KMeansRadiusBased_10kwords_BlobResponse_25_withMerging_RelevantNotConditionals.mat"
+WORD_FILES = "wordfiles.loc"
+WORD_DIR = "feat/Words"
+NUM_WORDS = 10000
+UNMAPPED = "unmapped"
+TEST_FILES = "test_files"
+INIT_SCENE_MARGINALS = "init_scene_marginals"

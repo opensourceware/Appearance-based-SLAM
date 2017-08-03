@@ -1,0 +1,8 @@
+This project is an implementation of Appearance based SLAM called FABMAP by the Mobile Robotics Group at Oxford University. The dataset for 70km run was obtained from http://ori.ox.ac.uk/fabmap/. The details of algorithm and model implementation can be found https://pdfs.semanticscholar.org/cfd4/6d06b6560edddaa7096b21b5e02ce19456bc.pdf.
+
+This code implements both FABMAP 1.0 (naive formulation which can be found in naive_model.py) and FABMAP 2.0 (inverted index formulation which can be found at inverted_model.py). A mini toy dataset is provided with this code to test the algorithm. Images captured at the locations are also included in the code for verification under the data/Path and data/Correspondences folder. data/Path contains the locations traversed in order and data/Correspondences contains the matches made between these locations in the format: x-query_loc.png, x-match_loc.png.
+
+The code can simply be run by the following command:
+python3 inverted_model.py
+
+To run and test your own dataset, make the necessary changes of file path in the config.py file.
